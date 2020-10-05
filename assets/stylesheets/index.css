@@ -1,0 +1,127 @@
+@import "./normalize.css";
+@import "./variables/_variable.css";
+
+/* pages stylesheets */
+@import "./pages/home.css";
+@import "./pages/about.css";
+@import "./pages/blog.css";
+@import "./pages/portfolio.css";
+@import "./pages/agents.css";
+@import "./pages/contact.css";
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  padding: 0 2rem;
+}
+.header {
+  height: 78px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  opacity: 0.3;
+}
+.header__logo .header__logo-link {
+  font-size: 5.6rem;
+  text-transform: capitalize;
+  color: white;
+}
+.header__logo .header__logo-link-color {
+  color: var(--primary-color);
+}
+.header__nav ul {
+  display: flex;
+  justify-content: flex-end;
+  width: 70rem;
+}
+.header__nav-item {
+  padding: 1.5rem 1rem;
+  border: 1px solid red;
+}
+.header__nav-item:hover {
+  cursor: pointer;
+  border-bottom: initial;
+}
+.header__nav-item:hover .header__nav-item-link {
+  color: var(--primary-color);
+}
+.header__nav-item-link {
+  border-bottom: 0.3rem solid white;
+  color: white;
+  text-transform: capitalize;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+}
+.header__nav-item-link:hover {
+  border-bottom-color: transparent;
+}
+/* carousel */
+.carousel {
+  position: absolute;
+  /* top: -2.5rem; */
+  color: white;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.carousel__title {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-transform: uppercase;
+  font-size: 4rem;
+  padding-bottom: 3rem;
+}
+.carousel__text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(50%);
+  font-size: 2rem;
+}
+.carousel__text::first-letter {
+  text-transform: capitalize;
+}
+.carousel__btn {
+  position: absolute;
+  color: currentColor;
+  top: 75%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 10rem;
+}
+.carousel__btn-link {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.carousel__btn-link:hover {
+  cursor: pointer;
+}
+/* carousel next button */
+.carousel-next,
+.carousel-previous {
+  position: absolute;
+  right: 10rem;
+  top: 50%;
+  opacity: 0.3;
+}
+.carousel-previous {
+  right: initial;
+  left: 10rem;
+}
+.carousel-next:hover,
+.carousel-previous:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+/* about page */
+.about {
+  background-color: #fff;
+}

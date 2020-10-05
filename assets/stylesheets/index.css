@@ -21,7 +21,7 @@
   top: 0;
   z-index: 1;
   width: 100%;
-  opacity: 0.3;
+  /* opacity: 0.3; */
 }
 .header__logo .header__logo-link {
   font-size: 5.6rem;
@@ -38,16 +38,12 @@
 }
 .header__nav-item {
   padding: 1.5rem 1rem;
-  border: 1px solid red;
-}
-.header__nav-item:hover {
-  cursor: pointer;
-  border-bottom: initial;
 }
 .header__nav-item:hover .header__nav-item-link {
   color: var(--primary-color);
 }
 .header__nav-item-link {
+  transition: all 0.5s;
   border-bottom: 0.3rem solid white;
   color: white;
   text-transform: capitalize;

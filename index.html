@@ -14,6 +14,45 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800;900&display=swap"
     />
     <link rel="stylesheet" href="./assets/stylesheets/index.css" />
+    <!-- Lightbox CSS -->
+    <link rel="stylesheet" href="./assets/stylesheets/lightbox.min.css" />
+    <!-- Light Speed Box CSS -->
+    <link rel="stylesheet" href="./assets/stylesheets/lsb.css" />
+    <!-- JQuery Script -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Light Speed Box Script -->
+    <script src="./js/libs/lsb.min.js"></script>
+    <script>
+      $(window).load(function () {
+        $.fn.lightspeedBox();
+      });
+    </script>
+    <script>
+      $.fn.lightspeedBox({
+        showImageTitle: true,
+        showImageCount: true,
+        showDownloadButton: true,
+        showAutoPlayButton: true,
+        autoPlayback: false,
+        playbackTiming: 3500,
+        zIndex: 3000,
+        locale: {
+          nextButton: "Next image",
+          prevButton: "Previous image",
+          closeButton: "Close",
+          downloadButton: "Download image",
+          noImageFound: "Sorry, no image found.",
+          downloadButton: "Download image",
+          autoplayButton: "Enable autoplay",
+        },
+      });
+    </script>
+
     <title>Housing</title>
   </head>
   <body>
@@ -80,15 +119,234 @@
       </div>
     </section>
     <!-- Intro -->
-    <section class="intro">
+    <section id="intro">
       <h1 class="intro__title">about</h1>
-      <div class="intro__item-list">
-        <div class="intro__home-item">
+      <div class="intro__list">
+        <div class="intro__item">
           <i class="fas fa-home"></i>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae alias
+            impedit cum rerum neque, amet laborum hic, cupiditate deleniti modi
+            sapiente at vero necessitatibus ullam delectus minus nostrum commodi
+            asperiores.
+          </p>
         </div>
-        <div class="intro__key-item"></div>
-        <div class="intro__money-item"></div>
+        <div class="intro__item">
+          <i class="fa fa-key"></i>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae alias
+            impedit cum rerum neque, amet laborum hic, cupiditate deleniti modi
+            sapiente at vero necessitatibus ullam delectus minus nostrum commodi
+            asperiores.
+          </p>
+        </div>
+        <div class="intro__item">
+          <i class="far fa-money-bill-alt"></i>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae alias
+            impedit cum rerum neque, amet laborum hic, cupiditate deleniti modi
+            sapiente at vero necessitatibus ullam delectus minus nostrum commodi
+            asperiores.
+          </p>
+        </div>
+      </div>
+      <div class="intro__desc">
+        <h3>about us</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam neque
+          libero quia repudiandae at autem, ab, possimus totam et tenetur, quam
+          dignissimos eligendi odio! Quaerat, doloribus soluta, vitae deserunt
+          quisquam laborum omnis nostrum quibusdam ratione dignissimos vel
+          aperiam eveniet repudiandae odit nam corrupti autem nobis! Error
+          libero sint ipsum doloribus?
+        </p>
       </div>
     </section>
+    <!-- Stats -->
+    <section id="stats">
+      <h3>stats</h3>
+      <div class="stats__list">
+        <div class="stats__item">
+          <h3 class="counter">3500</h3>
+          <p>clients</p>
+        </div>
+        <div class="stats__item">
+          <h3 class="counter">650</h3>
+          <p>plans</p>
+        </div>
+        <div class="stats__item">
+          <h3 class="counter">1021</h3>
+          <p>projects</p>
+        </div>
+        <div class="stats__item">
+          <h3 class="counter">1010</h3>
+          <p>likes</p>
+        </div>
+      </div>
+    </section>
+    <!-- Blog -->
+    <section id="blog">
+      <h3>blog</h3>
+      <div class="blog__list">
+        <div class="blog__item">
+          <img src="./assets/images/g1.jpg" alt="" />
+          <div class="blog__content">
+            <h3>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Pariatur, natus?
+            </h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Dignissimos voluptas quia eos cumque magnam reprehenderit
+              provident? Facere non quidem dolore.
+            </p>
+            <button class="btn">read more ...</button>
+          </div>
+        </div>
+        <div class="blog__item">
+          <img src="./assets/images/g2.jpg" alt="" />
+          <div class="blog__content">
+            <h3>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Pariatur, natus?
+            </h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Dignissimos voluptas quia eos cumque magnam reprehenderit
+              provident? Facere non quidem dolore.
+            </p>
+            <button class="btn">read more ...</button>
+          </div>
+        </div>
+        <div class="blog__item">
+          <img src="./assets/images/g1.jpg" alt="" />
+          <div class="blog__content">
+            <h3>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Pariatur, natus?
+            </h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Dignissimos voluptas quia eos cumque magnam reprehenderit
+              provident? Facere non quidem dolore.
+            </p>
+            <button class="btn">read more ...</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="more">
+      <div class="more__video">
+        <!-- <video src="./assets/images/video.jpg"></video> -->
+        <img src="./assets/images/video.jpg" alt="" />
+      </div>
+      <div class="more__content">
+        <h3>get more</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+          nostrum vel modi illum, repudiandae corporis cum at commodi ab
+          explicabo iure nihil accusantium quas asperiores, praesentium a odio
+          molestiae magnam!
+        </p>
+        <button class="btn">read more...</button>
+      </div>
+    </section>
+    <!-- Portfolio -->
+    <section id="portfolio">
+      <h3>portfolio</h3>
+      <div class="portfolio__content">
+        <a
+          href="./assets/images/img1.jpg"
+          class="lsb-preview"
+          data-lsb-group="header"
+        >
+          <div class="portfolio__item">
+            <img src="./assets/images/img1.jpg" alt="" />
+            <div class="portfolio__overlay">
+              <h3>gallery</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </a>
+        <a
+          href="./assets/images/img2.jpg"
+          class="lsb-preview"
+          data-lsb-group="header"
+        >
+          <div class="portfolio__item">
+            <img src="./assets/images/img2.jpg" alt="" />
+            <div class="portfolio__overlay">
+              <h3>gallery</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </a>
+        <a
+          href="./assets/images/img3.jpg"
+          class="lsb-preview"
+          data-lsb-group="header"
+        >
+          <div class="portfolio__item">
+            <img src="./assets/images/img3.jpg" alt="" />
+            <div class="portfolio__overlay">
+              <h3>gallery</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </a>
+        <a
+          href="./assets/images/img4.jpg"
+          class="lsb-preview"
+          data-lsb-group="header"
+        >
+          <div class="portfolio__item">
+            <img src="./assets/images/img4.jpg" alt="" />
+            <div class="portfolio__overlay">
+              <h3>gallery</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </a>
+        <a
+          href="./assets/images/img5.jpg"
+          class="lsb-preview"
+          data-lsb-group="header"
+        >
+          <div class="portfolio__item">
+            <img src="./assets/images/img5.jpg" alt="" />
+            <div class="portfolio__overlay">
+              <h3>gallery</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </a>
+        <a
+          href="./assets/images/img6.jpg"
+          class="lsb-preview"
+          data-lsb-group="header"
+        >
+          <div class="portfolio__item">
+            <img src="./assets/images/img6.jpg" alt="" />
+            <div class="portfolio__overlay">
+              <h3>gallery</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Waypoinjs Script -->
+    <script src="./js/libs/jquery.waypoints.min.js"></script>
+    <!-- Countupjs Script -->
+    <script src="./js/libs/jquery.countup.min.js"></script>
+    <script>
+      $(".counter").countUp({
+        time: 3000,
+        delay: 10,
+      });
+    </script>
+    <!-- Lightbox Script -->
+    <!-- <script src="./js/libs/lightbox.min.js"></script> -->
   </body>
 </html>

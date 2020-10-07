@@ -17,11 +17,11 @@
 }
 .header {
   height: 78px;
-  position: absolute;
+  position: fixed;
   top: 0;
   z-index: 1;
   width: 100%;
-  /* opacity: 0.3; */
+  opacity: 0.7;
 }
 .header__logo .header__logo-link {
   font-size: 5.6rem;
@@ -118,6 +118,205 @@
   cursor: pointer;
 }
 /* about page */
-.about {
-  background-color: #fff;
+#intro {
+  padding: 2.5rem 10rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-around;
+}
+#intro .intro__title {
+  text-align: center;
+  color: currentColor;
+  text-transform: capitalize;
+  font-size: 5rem;
+  padding: 2.5rem 0;
+}
+#intro .intro__list {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2.5rem;
+}
+#intro .intro__item {
+  text-align: center;
+  padding: 0 1rem;
+}
+#intro .intro__item i {
+  font-size: 3rem;
+  text-align: center;
+  border-radius: 50%;
+  padding: 2.5rem;
+  margin-bottom: 2.5rem;
+  transition: all 1s;
+}
+#intro .intro__item i:hover {
+  background-color: var(--primary-color);
+  cursor: pointer;
+  color: white;
+}
+#intro .intro__item p {
+  line-height: 1.2;
+  font-size: 2rem;
+}
+#intro .intro__desc {
+  text-align: center;
+}
+#intro .intro__desc h3 {
+  font-size: 3rem;
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+}
+#intro .intro__desc h3::first-letter {
+  text-transform: capitalize;
+}
+#intro .intro__desc p {
+  line-height: 1.2;
+  font-size: 2rem;
+}
+/* Stats */
+#stats {
+  color: initial;
+  font-size: 2rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  align-content: space-between;
+  background-color: var(--primary-color);
+}
+#stats > h3 {
+  padding: 2.5rem 0;
+}
+#stats .stats__list {
+  display: flex;
+  width: 100%;
+  padding: 0 10rem;
+  justify-content: space-between;
+  border: 1px solid red;
+  color: white;
+}
+#stats .stats__item {
+  text-align: center;
+  width: 10rem;
+}
+#stats .stats__item p {
+  color: initial;
+  text-transform: capitalize;
+  text-align: center;
+}
+/* blog */
+#blog {
+  border: 1px solid red;
+  padding: 0 10rem;
+  margin-bottom: 10rem;
+}
+#blog .blog__list {
+  display: flex;
+  justify-content: space-between;
+}
+#blog .blog__item {
+  padding: 0 5rem;
+}
+#blog .blog__content > * {
+  margin: 1rem 0;
+}
+#blog .blog__content h3 {
+  color: var(--primary-color);
+}
+.btn {
+  text-transform: capitalize;
+  font-size: 1.6rem;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  text-align: center;
+  color: var(--primary-color);
+  background-color: black;
+  border: none;
+  border-radius: 0.3rem;
+  line-height: 1.6rem;
+  transition: color 0.5s;
+  font-weight: bold;
+}
+.btn:hover {
+  color: white;
+  cursor: pointer;
+}
+/* Get More */
+#more {
+  display: flex;
+}
+#more .more__video,
+.more__content {
+  width: 50%;
+}
+#more .more__video img {
+  height: 100%;
+}
+#more .more__content {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem;
+  background-color: var(--primary-color);
+}
+#more .more__content > * {
+  margin: 2rem 0;
+}
+
+#more .more__content h3 {
+  font-size: 5rem;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+#more .more__content p {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  line-height: 2;
+}
+/* Portfolio */
+#portfolio {
+  padding: 3rem 10rem;
+  border: 1px solid red;
+}
+#portfolio > h3 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 4rem;
+}
+#portfolio .portfolio__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+#portfolio .portfolio__content .portfolio__item {
+  position: relative;
+}
+.portfolio__item .portfolio__overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  color: white;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+}
+.portfolio__item .portfolio__overlay h3 {
+  border: 0.2rem solid;
+  padding: 4rem 8rem;
+  border-color: var(--primary-color) transparent;
+  text-transform: uppercase;
+}
+.portfolio__content .portfolio__item:hover {
+  cursor: pointer;
+}
+.portfolio__item:hover .portfolio__overlay {
+  opacity: 0.7;
 }

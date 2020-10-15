@@ -231,28 +231,13 @@
           '<header class="lsb-header"><div class="lsb-image-count"></div><div class="lsb-image-title"></div></header>' +
           '<div class="lsb-control-panel">' +
           '<a class="lsb-control lsb-panel-button lsb-play" title="Slideshow">' +
-          '<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1408 1792">' +
-          '<path fill="#000" d="M1384 927l-1328 738q-23 13-39.5 3t-16.5-36v-1472q0-26 16.5-36t39.5 3l1328 738q23 13 23 31t-23 31z" />' +
-          '</svg>' +
-          '<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1408 1792">' +
-          '<path fill="#fff" d="M1384 927l-1328 738q-23 13-39.5 3t-16.5-36v-1472q0-26 16.5-36t39.5 3l1328 738q23 13 23 31t-23 31z" />' +
-          '</svg>' +
+          '<i class="fas fa-play"></i>' + 
           '</a>' +
           '<a class="lsb-control lsb-panel-button lsb-pause" title="Stop Slideshow">' +
-          '<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1536 1792">' +
-          '<path fill="#000" d="M1536 192v1408q0 26-19 45t-45 19h-512q-26 0-45-19t-19-45v-1408q0-26 19-45t45-19h512q26 0 45 19t19 45zM640 192v1408q0 26-19 45t-45 19h-512q-26 0-45-19t-19-45v-1408q0-26 19-45t45-19h512q26 0 45 19t19 45z" />' +
-          '</svg>' +
-          '<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1536 1792">' +
-          '<path fill="#fff" d="M1536 192v1408q0 26-19 45t-45 19h-512q-26 0-45-19t-19-45v-1408q0-26 19-45t45-19h512q26 0 45 19t19 45zM640 192v1408q0 26-19 45t-45 19h-512q-26 0-45-19t-19-45v-1408q0-26 19-45t45-19h512q26 0 45 19t19 45z" />' +
-          '</svg>' +
+          '<i class="fas fa-pause"></i>' +
           '</a>' +
           '<a class="lsb-control lsb-panel-button lsb-download" download title="Download Image">' +
-          '<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1664 1792">' +
-          '<path fill="#000" d="M1280 1344q0-26-19-45t-45-19-45 19-19 45 19 45 45 19 45-19 19-45zM1536 1344q0-26-19-45t-45-19-45 19-19 45 19 45 45 19 45-19 19-45zM1664 1120v320q0 40-28 68t-68 28h-1472q-40 0-68-28t-28-68v-320q0-40 28-68t68-28h465l135 136q58 56 136 56t136-56l136-136h464q40 0 68 28t28 68zM1339 551q17 41-14 70l-448 448q-18 19-45 19t-45-19l-448-448q-31-29-14-70 17-39 59-39h256v-448q0-26 19-45t45-19h256q26 0 45 19t19 45v448h256q42 0 59 39z" />' +
-          '</svg>' +
-          '<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1664 1792">' +
-          '<path fill="#fff" d="M1280 1344q0-26-19-45t-45-19-45 19-19 45 19 45 45 19 45-19 19-45zM1536 1344q0-26-19-45t-45-19-45 19-19 45 19 45 45 19 45-19 19-45zM1664 1120v320q0 40-28 68t-68 28h-1472q-40 0-68-28t-28-68v-320q0-40 28-68t68-28h465l135 136q58 56 136 56t136-56l136-136h464q40 0 68 28t28 68zM1339 551q17 41-14 70l-448 448q-18 19-45 19t-45-19l-448-448q-31-29-14-70 17-39 59-39h256v-448q0-26 19-45t45-19h256q26 0 45 19t19 45v448h256q42 0 59 39z" />' +
-          '</svg>' +
+          '<i class="fas fa-long-arrow-alt-down"></i>' + 
           '</a>' +
           '</div>' +
           '<div class="lsb-image-container">' +
@@ -263,28 +248,13 @@
           waitingIconCircle +
           '</div>' +
           '<div class="lsb-control lsb-close">' +
-          '<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1408 1792">' +
-          '<path fill="#000" d="M1298 1322q0 40-28 68l-136 136q-28 28-68 28t-68-28l-294-294-294 294q-28 28-68 28t-68-28l-136-136q-28-28-28-68t28-68l294-294-294-294q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 294 294-294q28-28 68-28t68 28l136 136q28 28 28 68t-28 68l-294 294 294 294q28 28 28 68z" />' +
-          '</svg>' +
-          '<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1408 1792">' +
-          '<path fill="#fff" d="M1298 1322q0 40-28 68l-136 136q-28 28-68 28t-68-28l-294-294-294 294q-28 28-68 28t-68-28l-136-136q-28-28-28-68t28-68l294-294-294-294q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 294 294-294q28-28 68-28t68 28l136 136q28 28 28 68t-28 68l-294 294 294 294q28 28 28 68z" />' +
-          '</svg>' +
+          '<i class="fas fa-times"></i>' +
           '</div>' +
           '<div class="lsb-control lsb-prev" title="Previous Image">' +
-          '<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 640 1792">' +
-          '<path fill="#000" d="M627 544q0 13-10 23l-393 393 393 393q10 10 10 23t-10 23l-50 50q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23z" />' +
-          '</svg>' +
-          '<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 640 1792">' +
-          '<path fill="#fff" d="M627 544q0 13-10 23l-393 393 393 393q10 10 10 23t-10 23l-50 50q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23z" />' +
-          '</svg>' +
+          '<i class="fas fa-chevron-left"></i>' +
           '</div>' +
           '<div class="lsb-control lsb-next" title="Next Image">' +
-          '<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 640 1792">' +
-          '<path fill="#000" d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z" />' +
-          '</svg>' +
-          '<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 640 1792">' +
-          '<path fill="#fff" d="M595 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z" />' +
-          '</svg>' +
+          '<i class="fas fa-chevron-right"></i>' +
           '</div>' +
           '</div>' +
           '</div>'

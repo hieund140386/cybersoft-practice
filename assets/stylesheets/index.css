@@ -30,7 +30,7 @@ header {
   color: white;
 }
 .header__logo .header__logo-link-color {
-  color: var(--primary-color);
+  color: #00cdce;
 }
 .header__nav ul {
   display: flex;
@@ -39,7 +39,7 @@ header {
   padding: 1.5rem 1rem;
 }
 .header__nav-item:hover .header__nav-item-link {
-  color: var(--primary-color);
+  color: #00cdce;
 }
 .header__nav-item-link {
   transition: all 0.5s;
@@ -129,12 +129,12 @@ header {
   transition: all 1s;
 }
 #intro .intro__item i:hover {
-  background-color: var(--primary-color);
+  background-color: #00cdce;
   cursor: pointer;
   color: white;
 }
 #intro .intro__item p {
-  color: var(--secondary-color);
+  color: #7f7777;
   line-height: 1.8;
   font-size: 2rem;
 }
@@ -143,7 +143,7 @@ header {
 }
 #intro .intro__desc p:first-child {
   font-size: 3rem;
-  color: var(--primary-color);
+  color: #00cdce;
   letter-spacing: 0.5rem;
   margin-bottom: 2rem;
 }
@@ -158,7 +158,7 @@ header {
 #stats {
   color: initial;
   font-size: 2rem;
-  background-color: var(--primary-color);
+  background-color: #00cdce;
   padding: 4rem 0 5rem;
 }
 #stats .stats__title {
@@ -213,7 +213,7 @@ header {
   background-color: #efefef;
 }
 #blog .blog__list .blog__item img {
-  border-top: 0.5rem solid var(--primary-color);
+  border-top: 0.5rem solid #00cdce;
 }
 #blog .blog__content > * {
   margin: 1rem 0 1rem 2rem;
@@ -221,7 +221,7 @@ header {
 }
 #blog .blog__content h3 {
   font-size: 2.2rem;
-  color: var(--primary-color);
+  color: #00cdce;
 }
 #blog .blog__content p {
   font-size: 1.5rem;
@@ -232,7 +232,7 @@ header {
   padding: 1rem 2rem;
   margin-top: 1rem;
   text-align: center;
-  color: var(--primary-color);
+  color: #00cdce;
   background-color: black;
   border: none;
   border-radius: 0.3rem;
@@ -281,7 +281,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 2rem 10rem;
-  background-color: var(--primary-color);
+  background-color: #00cdce;
 }
 #more .more__content > * {
   margin: 2rem 0;
@@ -335,7 +335,7 @@ header {
 .portfolio__item .portfolio__overlay h3 {
   border: 0.2rem solid;
   padding: 4rem 8rem;
-  border-color: var(--primary-color) transparent;
+  border-color: #00cdce transparent;
   text-transform: uppercase;
 }
 .portfolio__content .portfolio__item:hover {
@@ -346,7 +346,7 @@ header {
 }
 /* Subscribe */
 #subscribe {
-  background-color: var(--primary-color);
+  background-color: #00cdce;
   display: flex;
   flex-flow: column;
   justify-content: space-between;
@@ -421,7 +421,7 @@ header {
   padding: 2rem 0;
 }
 #agent .agent__cards .agent__card .agent__card-content-title {
-  color: var(--primary-color);
+  color: #00cdce;
   text-transform: uppercase;
   font-size: 2.1rem;
 }
@@ -474,7 +474,7 @@ header {
 }
 /* Google Map */
 #google-map {
-  border: 0.3rem solid var(--primary-color);
+  border: 0.3rem solid #00cdce;
 }
 #google-map iframe {
   display: block;
@@ -558,14 +558,14 @@ header {
 #contact .contact__form-right input:hover,
 #contact .contact__form-right input:focus {
   color: black;
-  background-color: var(--primary-color);
+  background-color: #00cdce;
 }
 #contact .contact__form-right input:hover {
   cursor: pointer;
 }
 /* Footer */
 footer {
-  background-color: var(--primary-color);
+  background-color: #00cdce;
   padding: 2rem 10rem;
   display: flex;
   justify-content: space-evenly;
